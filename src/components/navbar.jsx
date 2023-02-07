@@ -17,7 +17,7 @@ const Navbar = () => {
       </div>
 
       {/* Mobile Menu */}
-      <ul className='hidden'>
+      <ul className='hidden bg-light-navy w-screen h-[calc(100vh-80px)] text-white flex flex-col justify-start pt-8 items-center text-4xl space-y-16 font-lato uppercase tracking-wider'>
         <li>About</li>
         <li>Experience</li>
         <li>Projects</li>
